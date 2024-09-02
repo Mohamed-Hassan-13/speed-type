@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="game">
+      <div class="name">Typing Speed Test Game</div>
+      <div class="contant">
+        <div class="chose">
+          <h2>Choose the difficulty</h2>
+          <div class="spans">
+            <span data-name="easy">Easy</span>
+            <span class="active" data-name="normal">Normal</span>
+            <span data-name="hard">Hard</span>
+          </div>
+        </div>
+        <div class="level">
+          You Are Playing On<span class="levelname">normal</span>Level & You
+          Have<span class="second">4</span>Second To Type The Word
+        </div>
+        <div class="start">Start Playing</div>
+        <div class="randomword"></div>
+        <input type="text" />
+        <div class="words"></div>
+        <div class="control">
+          <div class="timeleft">
+            Time Left: <span class="Second2">0</span> Seconds
+          </div>
+          <div class="score">
+            score: <span class="numberscore">0</span> From
+            <span class="from"></span>
+          </div>
+        </div>
+      </div>
+      <div class="hightscore">
+        <div class="height">
+          <h2>Top Scores</h2>
+        </div>
+        <div class="scores">
+          <div class="one">
+            <p>Hard:</p>
+            <span id="hard"></span>
+          </div>
+          <div class="one">
+            <p>Normal:</p>
+            <span id="normal"></span>
+          </div>
+          <div class="one">
+            <p>Easy:</p>
+            <span id="easy"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
